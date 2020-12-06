@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardViewGames"
+    android:background="@drawable/bck"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            >
+            <ImageButton
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_baseline_games_24"
+                >
+
+            </ImageButton>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+
+            android:gravity="center_vertical">
+            <GridLayout
+                android:columnOrderPreserved="false"
+                android:columnCount="3"
+                android:rowCount="1"
+                android:alignmentMode="alignMargins"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/game1"
+                    android:shadowColor="@color/black"
+                    android:text="Shapes"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nerkooneregular"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shapes"
+                    android:layout_margin="12dp"
+                    android:layout_column="0"
+                    android:layout_row="0">
+                </Button>
+                <Button
+                    android:id="@+id/game2"
+                    android:text="Sea World"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nerkooneregular"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:textStyle="bold"
+                    android:textSize="37sp"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/wave"
+                    android:layout_column="1"
+                    android:layout_row="0">
+                </Button>
+                <Button
+                    android:id="@+id/game3"
+                    android:text="Animal World"
+                    android:textSize="37sp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="center"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nerkooneregular"
+                    android:textStyle="bold"
+
+                    android:background="@drawable/animalworld"
+
+                    android:layout_column="2"
+                    android:layout_row="0">
+                </Button>
+
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

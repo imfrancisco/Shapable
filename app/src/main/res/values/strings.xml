@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Shapable</string>
+    <string name="play">play</string>
+    <string name="reset">reset</string>
+    <string name="back">back</string>
+    <string name="lets_play">Let\'s Play</string>
+    <string name="circle">Circle</string>
+    <string name="rectangle">rectangle</string>
+    <string name="oval">Oval</string>
+    <string name="square">Square</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="register">Register</string>
+    <string name="registration">Parent Register</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="donthaveanAccount">Don\'t have an account?</string>
+    <string name="user_type">User Type</string>
+    <string name="level_1">Level 1</string>
+    <string name="score">score</string>
+    <string name="level_2">level 2</string>
+    <string name="animal_world">Animal World</string>
+    <string name="sea_world">Sea World</string>
+    <string name="shapes">Shapes</string>
+    <string name="child_s_scores">Child\'s Scores</string>
+    <string name="logout">Log out</string>
+    <string name="elefant">Elefant</string>
+    <string name="bee">bee</string>
+    <string name="turtle">turtle</string>
+    <string name="lion">lion</string>
+    <string name="whale">whale</string>
+    <string name="lobster">lobster</string>
+    <string name="score2">Score:</string>
+    <string name="tap_to_start">Tap to start</string>
+    <string name="reset2">Reset</string>
+    <string name="start">Start</string>
+    <string name="fish">fish</string>
+    <string name="crab">crab</string>
+    <string name="dolphin">dolphin</string>
+    <string name="hexagon">hexagon</string>
+    <string name="octagon">octagon</string>
+    <string name="triangle">triangle</string>
+    <string name="animal">Animal</string>
+    <string-array name="userType">
+        <item>Parent</item>
+        <item>Child</item>
+    </string-array>
+
+</resources>
